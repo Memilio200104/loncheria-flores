@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650">
+  <rect width="900" height="650" fill="#f9ede7"/>
+  <rect x="40" y="40" width="820" height="570" rx="30" fill="#fffaf7"/>
+  <circle cx="260" cy="290" r="160" fill="#de7565" opacity="0.9"/>
+  <rect x="430" y="180" width="260" height="220" rx="24" fill="#472115" opacity="0.9"/>
+  <rect x="470" y="420" width="180" height="90" rx="18" fill="#37532d" opacity="0.9"/>
+  <text x="90" y="560" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="800" fill="#472115">Torta Cubana</text>
+</svg>

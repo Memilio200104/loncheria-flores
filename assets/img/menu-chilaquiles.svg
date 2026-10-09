@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650">
+  <rect width="900" height="650" fill="#f9ede7"/>
+  <rect x="40" y="40" width="820" height="570" rx="30" fill="#fffaf7"/>
+  <circle cx="250" cy="300" r="155" fill="#37532d" opacity="0.9"/>
+  <path d="M420 170h220v180H420zm0 200h260v100H420z" fill="#de7565"/>
+  <circle cx="660" cy="390" r="90" fill="#472115" opacity="0.9"/>
+  <text x="90" y="560" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="800" fill="#472115">Chilaquiles</text>
+</svg>

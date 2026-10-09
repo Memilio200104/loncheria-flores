@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#f9ede7"/>
+  <rect x="40" y="50" width="1120" height="700" rx="28" fill="#fffaf7"/>
+  <circle cx="340" cy="320" r="180" fill="#de7565"/>
+  <rect x="470" y="200" width="540" height="260" rx="24" fill="#472115" opacity="0.9"/>
+  <path d="M540 430h430v60H540zm0 90h300v60H540z" fill="#f9ede7" opacity="0.9"/>
+  <circle cx="690" cy="580" r="110" fill="#37532d" opacity="0.85"/>
+  <text x="90" y="640" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="800" fill="#472115">TORTAS</text>
+  <text x="90" y="705" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="600" fill="#5d5d5d">Especiales y llenas de sabor</text>
+</svg>

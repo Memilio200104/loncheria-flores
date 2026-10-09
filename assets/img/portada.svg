@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f9ede7"/>
+      <stop offset="100%" stop-color="#f4d7c6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1800" height="1200" fill="url(#bg)"/>
+  <rect x="80" y="100" width="1640" height="1000" rx="40" fill="#fffaf7" opacity="0.92"/>
+  <circle cx="380" cy="470" r="220" fill="#de7565" opacity="0.95"/>
+  <circle cx="510" cy="420" r="120" fill="#f4b09c" opacity="0.8"/>
+  <path d="M930 260c80 0 153 66 153 154 0 125-121 251-238 255-130 4-233-91-233-214 0-83 65-195 218-195 52 0 93 11 100 0z" fill="#37532d" opacity="0.82"/>
+  <path d="M1100 410l230 130-230 130-230-130 230-130z" fill="#472115" opacity="0.82"/>
+  <path d="M1100 620l230 130-230 130-230-130 230-130z" fill="#de7565" opacity="0.82"/>
+  <text x="180" y="860" font-family="Arial, Helvetica, sans-serif" font-size="96" font-weight="800" fill="#472115">Lonchería Flores</text>
+  <text x="185" y="950" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="600" fill="#5a382c">Tortas • desayunos • café</text>
+</svg>

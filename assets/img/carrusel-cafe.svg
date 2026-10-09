@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#f9ede7"/>
+  <rect x="40" y="50" width="1120" height="700" rx="28" fill="#fffaf7"/>
+  <circle cx="330" cy="330" r="180" fill="#472115" opacity="0.9"/>
+  <path d="M540 230c50 0 110 25 150 78 40 53 54 132 33 210-28 103-123 156-216 156-82 0-166-49-188-138-25-104 32-221 130-264 43-21 66-42 91-42z" fill="#de7565"/>
+  <rect x="700" y="300" width="260" height="180" rx="30" fill="#37532d" opacity="0.85"/>
+  <text x="90" y="640" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="800" fill="#472115">CAFÉ</text>
+  <text x="90" y="705" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="600" fill="#5d5d5d">Caliente, aromático y perfecto para acompañar</text>
+</svg>

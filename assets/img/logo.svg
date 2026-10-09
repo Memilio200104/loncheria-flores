@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="90" viewBox="0 0 220 90">
+  <rect width="220" height="90" rx="18" fill="#f9ede7"/>
+  <circle cx="42" cy="45" r="26" fill="#de7565"/>
+  <path d="M20 52c10-18 28-20 42-6 9 9 12 23 2 33H18c-6-8-4-19 2-27z" fill="#37532d" opacity="0.95"/>
+  <circle cx="33" cy="33" r="5" fill="#472115"/>
+  <circle cx="49" cy="39" r="5" fill="#472115"/>
+  <text x="83" y="52" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#472115">Flores</text>
+</svg>
