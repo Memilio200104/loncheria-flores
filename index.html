@@ -24,14 +24,8 @@
       --shadow-strong: 0 20px 40px rgba(71, 33, 21, 0.18);
     }
 
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
     body {
       margin: 0;
       font-family: "Nunito", sans-serif;
@@ -40,14 +34,8 @@
       line-height: 1.6;
     }
 
-    img {
-      max-width: 100%;
-      display: block;
-    }
-
-    a {
-      text-decoration: none;
-    }
+    img { max-width: 100%; display: block; }
+    a { text-decoration: none; }
 
     .text-marca { color: var(--color-marca) !important; }
     .text-secundario { color: var(--color-secundario) !important; }
@@ -109,25 +97,10 @@
       transition: opacity 0.2s ease;
     }
 
-    .nav-link:hover {
-      opacity: 0.8;
-    }
-
-    .navbar-brand {
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-    }
-
-    .navbar-brand img {
-      height: 55px;
-      width: auto;
-    }
-
-    .brand-text {
-      font-size: clamp(1.1rem, 2vw, 1.5rem);
-      letter-spacing: 0.02em;
-    }
+    .nav-link:hover { opacity: 0.8; }
+    .navbar-brand { display: flex; align-items: center; gap: 0.75rem; }
+    .navbar-brand img { height: 55px; width: auto; }
+    .brand-text { font-size: clamp(1.1rem, 2vw, 1.5rem); letter-spacing: 0.02em; }
 
     .hero-badge {
       display: inline-block;
@@ -234,15 +207,8 @@
       object-fit: cover;
     }
 
-    .card-body {
-      padding: 1.5rem 1.5rem 0.8rem;
-    }
-
-    .card-footer {
-      background: white;
-      border-top: none;
-      padding: 0 1.5rem 1.5rem;
-    }
+    .card-body { padding: 1.5rem 1.5rem 0.8rem; }
+    .card-footer { background: white; border-top: none; padding: 0 1.5rem 1.5rem; }
 
     .menu-badge {
       display: inline-block;
@@ -256,9 +222,7 @@
       text-transform: uppercase;
     }
 
-    .menu-badge.verde {
-      background-color: var(--color-hoja);
-    }
+    .menu-badge.verde { background-color: var(--color-hoja); }
 
     .card-title {
       font-size: 1.5rem;
@@ -267,16 +231,8 @@
       margin-bottom: 0.75rem;
     }
 
-    .card-text {
-      color: #656565;
-      font-size: 1rem;
-    }
-
-    .price {
-      font-size: 2rem;
-      font-weight: 900;
-      color: var(--color-marca);
-    }
+    .card-text { color: #656565; font-size: 1rem; }
+    .price { font-size: 2rem; font-weight: 900; color: var(--color-marca); }
 
     .special-section {
       background: rgba(255, 255, 255, 0.8);
@@ -323,23 +279,14 @@
       padding: 1.4rem;
     }
 
-    .list-item-check {
-      list-style: none;
-      padding-left: 0;
-      margin: 0;
-    }
-
+    .list-item-check { list-style: none; padding-left: 0; margin: 0; }
     .list-item-check li {
       padding: 0.7rem 0;
       border-bottom: 1px solid rgba(71, 33, 21, 0.08);
       color: var(--color-marca);
       font-weight: 700;
     }
-
-    .list-item-check li:last-child {
-      border-bottom: none;
-    }
-
+    .list-item-check li:last-child { border-bottom: none; }
     .list-item-check .check {
       color: var(--color-hoja);
       margin-right: 0.5rem;
@@ -391,9 +338,7 @@
       box-shadow: none;
     }
 
-    .accordion-button::after {
-      filter: brightness(0.5) saturate(1.3);
-    }
+    .accordion-button::after { filter: brightness(0.5) saturate(1.3); }
 
     .accordion-body {
       background: white;
@@ -414,43 +359,16 @@
       margin: 0;
     }
 
-    .footer-note {
-      color: rgba(255,255,255,0.75);
-      margin: 0;
-    }
+    .footer-note { color: rgba(255,255,255,0.75); margin: 0; }
+    .foot-link { color: #fff; font-weight: 700; }
+    .foot-link:hover { opacity: 0.8; color: #fff; }
 
-    .foot-link {
-      color: #fff;
-      font-weight: 700;
-    }
-
-    .foot-link:hover {
-      opacity: 0.8;
-      color: #fff;
-    }
-
-    @media (max-width: 992px) {
-      .portada {
-        height: 380px;
-      }
-    }
-
+    @media (max-width: 992px) { .portada { height: 380px; } }
     @media (max-width: 768px) {
-      .hero-title {
-        font-size: 2.7rem;
-      }
-
-      .hero-subtitle {
-        font-size: 1.08rem;
-      }
-
-      .carousel-item img {
-        height: 360px;
-      }
-
-      .navbar-brand {
-        margin-right: 0;
-      }
+      .hero-title { font-size: 2.7rem; }
+      .hero-subtitle { font-size: 1.08rem; }
+      .carousel-item img { height: 360px; }
+      .navbar-brand { margin-right: 0; }
     }
   </style>
 </head>
@@ -458,8 +376,8 @@
 
   <nav class="navbar navbar-expand-lg sticky-top shadow-sm">
     <div class="container">
-      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#inicio" aria-label="Inicio">
-        <img src="assets/img/logo.png" alt="Logo Lonchería Flores" height="55">
+      <a class="navbar-brand fw-bold" href="#inicio" aria-label="Inicio">
+        <img src="assets/img/logo.svg" alt="Logo Lonchería Flores" height="55">
         <span class="brand-text fw-bold text-marca">Lonchería Flores</span>
       </a>
 
@@ -496,11 +414,7 @@
 
         <div class="col-12 col-lg-7">
           <figure class="mb-0">
-            <img
-              class="img-fluid portada"
-              src="assets/img/portada.jpg"
-              alt="Platillos deliciosos de Lonchería Flores"
-            />
+            <img class="img-fluid portada" src="assets/img/portada.svg" alt="Platillos deliciosos de Lonchería Flores" />
           </figure>
         </div>
       </div>
@@ -520,7 +434,7 @@
 
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="assets/img/carrusel-torta.jpg" class="d-block w-100" alt="Tortas especiales preparadas al momento" />
+                <img src="assets/img/carrusel-torta.svg" class="d-block w-100" alt="Tortas especiales preparadas al momento" />
                 <div class="carousel-caption">
                   <h5>Tortas Especiales</h5>
                   <p>Preparadas al momento con ingredientes frescos y de la mejor calidad.</p>
@@ -528,7 +442,7 @@
               </div>
 
               <div class="carousel-item">
-                <img src="assets/img/carrusel-desayuno.jpg" class="d-block w-100" alt="Desayunos completos" />
+                <img src="assets/img/carrusel-desayuno.svg" class="d-block w-100" alt="Desayunos completos" />
                 <div class="carousel-caption">
                   <h5>Desayunos Completos</h5>
                   <p>Para que rindas al máximo en tu escuela o trabajo.</p>
@@ -536,7 +450,7 @@
               </div>
 
               <div class="carousel-item">
-                <img src="assets/img/carrusel-cafe.jpg" class="d-block w-100" alt="Café caliente y bebidas" />
+                <img src="assets/img/carrusel-cafe.svg" class="d-block w-100" alt="Café caliente y bebidas" />
                 <div class="carousel-caption">
                   <h5>Café y Bebidas</h5>
                   <p>El acompañamiento perfecto para despertar tus mañanas.</p>
@@ -571,12 +485,7 @@
       <div class="row g-4">
         <div class="col-12 col-md-6 col-lg-4">
           <article class="card h-100">
-            <img
-              src="assets/img/menu-torta.jpg"
-              class="card-img-top"
-              alt="Torta Cubana con milanesa, pierna y salchicha"
-              loading="lazy"
-            />
+            <img src="assets/img/menu-torta.svg" class="card-img-top" alt="Torta Cubana con milanesa, pierna y salchicha" loading="lazy" />
             <div class="card-body">
               <span class="menu-badge">Tortas</span>
               <h3 class="card-title mt-3">Torta Cubana</h3>
@@ -590,12 +499,7 @@
 
         <div class="col-12 col-md-6 col-lg-4">
           <article class="card h-100">
-            <img
-              src="assets/img/menu-chilaquiles.jpg"
-              class="card-img-top"
-              alt="Chilaquiles con huevo y queso"
-              loading="lazy"
-            />
+            <img src="assets/img/menu-chilaquiles.svg" class="card-img-top" alt="Chilaquiles con huevo y queso" loading="lazy" />
             <div class="card-body">
               <span class="menu-badge verde">Desayunos</span>
               <h3 class="card-title mt-3">Chilaquiles con Huevo</h3>
@@ -609,12 +513,7 @@
 
         <div class="col-12 col-md-6 col-lg-4">
           <article class="card h-100">
-            <img
-              src="assets/img/menu-cafe.jpg"
-              class="card-img-top"
-              alt="Café de olla con piloncillo"
-              loading="lazy"
-            />
+            <img src="assets/img/menu-cafe.svg" class="card-img-top" alt="Café de olla con piloncillo" loading="lazy" />
             <div class="card-body">
               <span class="menu-badge">Bebidas</span>
               <h3 class="card-title mt-3">Café de Olla</h3>
